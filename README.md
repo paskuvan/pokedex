@@ -1,50 +1,64 @@
-# Welcome to your Expo app 👋
+<h1 align="center">📱 Pokédex Mobile App</h1>
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+<p align="center">
+Cross-Platform Pokémon Explorer built with React Native & Expo
+</p>
 
-## Get started
+<p align="center">
+  <img src="https://img.shields.io/badge/React%20Native-0.7x-61DAFB?style=flat-square&logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-ES6-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/API-REST-orange?style=flat-square" />
+  <img src="https://img.shields.io/badge/Cross--Platform-iOS%20%7C%20Android-blue?style=flat-square" />
+</p>
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## 🚀 Overview
 
-2. Start the app
+Pokédex Mobile App is a cross-platform application built with **React Native and Expo** that consumes a public Pokémon API to display real-time data in a native mobile interface.
 
-   ```bash
-   npx expo start
-   ```
+This project demonstrates API integration, mobile UI architecture and state management in a modern React Native environment.
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 🎯 Objectives
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- Consume and display external REST API data
+- Build reusable mobile components
+- Manage asynchronous state
+- Deliver a smooth cross-platform experience
+- Apply mobile-first UI/UX principles
 
-## Get a fresh project
+---
 
-When you're ready, run:
+## ⚡ Features
+
+- Pokémon list view
+- Search functionality
+- Detailed Pokémon screen
+- API data fetching
+- Native mobile navigation
+- Cross-platform support (iOS & Android)
+
+---
+
+## 🛠 Tech Stack
+
+- React Native
+- Expo
+- JavaScript (ES6+)
+- REST API Integration
+- Mobile Navigation
+
+---
+
+## 📁 Project Structure
 
 ```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+src/
+├── components/
+├── screens/
+├── navigation/
+├── services/
+└── App.js
